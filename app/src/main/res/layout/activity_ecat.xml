@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iiui.mdcataggregatecalculator.EcatActivity"
+    android:orientation="vertical"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="Intermediat Marks"
+        android:textSize="@dimen/fontSize"
+        android:textColor="@color/Black"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etMarksObtainedInterE"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:hint="Marks Obtained"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:background="@drawable/curly_edge_shape"
+        />
+    <EditText
+        android:id="@+id/etTotalMarksInterE"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:hint="Total Marks"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:background="@drawable/curly_edge_shape"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="ECAT Marks"
+        android:textSize="@dimen/fontSize"
+        android:textColor="@color/Black"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etMarksObtainedECAT"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Marks Obtained"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:background="@drawable/curly_edge_shape"
+        />
+    <EditText
+        android:id="@+id/etTotalMarksECAT"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:hint="Total Marks"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:background="@drawable/curly_edge_shape"
+        />
+    <Button
+        android:id="@+id/btnEcatCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:text="Calculate"
+        android:textSize="@dimen/fontSize"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:background="@drawable/button_shape"
+        />
+</LinearLayout>
